@@ -1,0 +1,29 @@
+.image{
+  filter: blur(5px);
+  width: 100%;
+  animation: change 4s linear;
+}
+
+.logo h1{
+  animation: change 4s infinite linear;
+}
+
+.logo h1:hover{
+  background-color: green;
+}
+
+.logo{
+  text-align: center;
+  font-size: 18px;
+  top: 50px;
+  color: white;
+  position: absolute;
+}
+
+h1,p{
+  border: 4px solid black;
+  padding: 10px 50px;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 100px;
+}
